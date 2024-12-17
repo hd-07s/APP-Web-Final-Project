@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Perfume Website</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+       <header class="header">
+      <div class="logo">Fragrante</div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="product.html">Our Products</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+        <div class="container">
+            <form 
+              action="./confirmation.html"
+              id="survey-form">
+              <h1 id="title">Contact Us</h1>
+              <p id="description">
+                We’d love to hear from you! Whether you have questions, feedback, or need assistance, our team is here to help. Please fill out the form below, and we’ll get back to you as soon as possible.
+              </p>
+      
+              <div>
+                <label for="name">Name:</label>
+                <input
+                  type="text"
+                  minlength="3"
+                  id="name"
+                  name="name" required/>
+              </div>
+      
+              <div>
+                <label for="email">Email:</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email" required/>
+              </div>
+      
+              <div>
+                <label for="messages">Messages:</label>
+                <textarea
+                  id="messages"
+                  name="messages"></textarea>
+              </div>
+      
+              <div class="button-row">
+                <button>Send Message</button>
+              </div>
+            </form>
+          </div>
+      </div>
+      <footer>
+          <p>2024 [Sediqa Ansari]</p>
+      </footer>
+    </body>
+</html>
