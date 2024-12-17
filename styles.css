@@ -100,7 +100,7 @@ button {
 }
 
 .image-container img {
-  display: blocked;
+  display: block;
   width: 100%;
   height: auto;
 }
@@ -120,15 +120,18 @@ button {
   text-align: left;
 }
 .overlay-text p {
+  margin-bottom: 70px;
   font-size: 20px;
   text-align: left;
 }
 
-.overlay-text button {
-  margin: 80px 0 0 150px;
+.overlay-text .collections-btn {
+  margin: 80px 0 0 200px;
   font-size: large;
   width: 50%;
-  background-color: rgb(255, 181, 162, 0.5);
+  border-radius: 10px;
+  padding: 10px 30px;
+  background-color:#ffb5a2 ;
 }
 
 main {
@@ -153,8 +156,7 @@ main {
   object-fit: cover;
 }
 footer {
-  background-color: #0f0401;
-  background-color: #0f0401;
+  background-color: #380c03;
   color: #ffffff;
   padding: 10px;
   text-align: center;
